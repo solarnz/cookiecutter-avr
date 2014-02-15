@@ -1,11 +1,26 @@
-cookiecutter for avr development, specifically targeting the ATmega32u4.
-========================================================================
+cookiecutter for avr development
+================================
+
+Introduction
+------------
+
+This is a simple boiler plate for avr development. It is setup to target the
+ATmega32u4 by default, but should be easy enough to adapt the makefile to
+another chips.
+
+The boiler plate comes with a simple c file that will turn the LED on the PJRC
+Teensy 2.0 on and off. Your mileage may very if you try to run that program on
+other devices.
 
 Usage
 -----
 
 - Install cookiecutter http://cookiecutter.readthedocs.org/en/latest/.
-- `cookiecutter https://github.com/solarnz/cookiecutter-avr.git`
+- Run cookiecutter with this repository!
+
+    .. code-block:: bash
+
+        $ cookiecutter https://github.com/solarnz/cookiecutter-avr.git
 
 Licence
 -------
